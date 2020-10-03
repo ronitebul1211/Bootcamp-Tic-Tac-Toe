@@ -1,0 +1,17 @@
+.slot {
+  font-size: 60px;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.X {
+  color: #848d96;
+}
+.O{
+  color: white;
+}
+

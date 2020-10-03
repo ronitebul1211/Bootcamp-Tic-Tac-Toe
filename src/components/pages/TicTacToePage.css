@@ -1,0 +1,21 @@
+.tic-tac-toe-container {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tic-tac-toe-container .title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.tic-tac-toe-container .info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status{
+  font-weight: 600;
+}

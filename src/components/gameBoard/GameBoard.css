@@ -1,0 +1,35 @@
+
+
+:root {
+  --border-width: 5px;
+  --border-color: black;
+}
+
+.game-board{
+  background-color: pink;
+  width: fit-content;
+  border-style: solid;
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+}
+
+.game-row{
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+  border-bottom-width: var(--border-width);
+}
+
+.game-row:last-child{
+  border-bottom: none;
+}
+
+.game-row > div {
+  border-right-style: solid;
+  border-right-color: var(--border-color);
+  border-right-width: var(--border-width);
+}
+
+ .game-row > div:last-child {
+  border-right: none;
+}
